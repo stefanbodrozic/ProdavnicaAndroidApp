@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PMSU 2021</string>
+    <string name="ime">Ime</string>
+    <string name="prezime">Prezime</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="adresa">Adresa</string>
+    <string name="email">Email</string>
+    <string name="naziv">Naziv</string>
+    <string name="registracija">Registracija</string>
+    <string name="unesite_korisnicko_ime">Unesite korisnicko ime</string>
+    <string name="unesite_password">Unesite password</string>
+    <string name="prijava">Prijava</string>
+    <string name="cena">Cena</string>
+    <string name="kolicina">Kolicina</string>
+    <string name="kupi">Kupi</string>
+    <string name="opis_artikla">Opis artikla</string>
+    <string name="Artikli" />
+    <string name="izmeni">izmeni</string>
+    <string name="izbrisi">izbrisi</string>
+    <string name="cena_na_popustu">Cena na popustu</string>
+    <string name="datum_pocetka_akcije">Datum pocetka akcije</string>
+    <string name="opis_akcije">Opis akcije</string>
+    <string name="datum_zavrsetka_akcije">Datum zavrsetka akcije</string>
+    <string name="sifra">Sifra</string>
+    <string name="adresa_kupca">Adresa kupca</string>
+    <string name="ostani_anoniman">Ostani anoniman</string>
+    <string name="ocena">Ocena(1-5)</string>
+    <string name="komentar">Komentar</string>
+    <string name="ukupna_cena">Ukupna cena</string>
+    <string name="korisnik_ime">Korisnik ime</string>
+    <string name="korisnik_uloga">Korisnik uloga</string>
+    <string name="korisnik_blokiran">Korisnik blokiran</string>
+</resources>
