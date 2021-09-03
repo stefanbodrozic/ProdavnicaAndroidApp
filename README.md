@@ -5,23 +5,23 @@ njen naziv). Kroz ovu aktivnost se proverava da li je korisnik prethodno prijavl
 jeste preusmerava se na glavni prikaz (opisan u nastavku specifikacije), dok ukoliko korisnik nije
 bio prethodno prijavljen, nakon početnog prozora korisnika biva preusmeren na stranicu prijavu.
 
-Prijava/Odjava
+Prijava/Odjava -
 U okviru ove aktivnosti korisniku je omogućena prijava na sistem. Pored prikaza forme za unos
 kredencijala, na istom prikazu uključiti i link za prelaz na formu za registraciju. U okviru
 aplikacije podržati opciju za odjavu, koja će biti dostupna u Toolbar meniju.
 
-Registracija
+Registracija -
 Prilikom registracije na sistem osim korisničkih podataka, korisnik bira i ulogu (prodavac ili
 kupac). Nakon uspešne registracije preusmeriti korisnika na aktivnost za prijavu na sistem.
 
-Rad sa komentarima
+Rad sa komentarima -
 Svaki prodavac ima uvid u komentare koje su kupci ostavili nakon isporuke porudžbina. Svaki
 prodavac može da izabere koji komentari će biti vidljivi na stranici svakog prodavca, tako što je
 za svaki od komentara dostupna opcija Arhiviraj, čijim izborom taj komentar više neće biti
 prikazivan na stranici. Prikaz komentara realizovati kao zasebnu aktivnost do koje korisnik
 dolazi tako što na stranici svakog prodavca iz Toolbar menija bira opciju Komentari.
 
-Rad sa artiklima
+Rad sa artiklima -
 Obezbediti prodavcima prikaz svih njihovih artikala u okviru zasebne aktivnosti za prikaz artikala
 (korisnik dolazi do ove aktivnosti preko izbora opcije Artikli na Toolbaru koji se nalazi na stranici
 svakog prodavca). U okviru ovog prikaza prodavac ima mogućnost da odabere neku od opcija -
@@ -34,7 +34,7 @@ podaci vezani za artikle, uključujući i izbor slike samog artikla (opciju za p
 dodavanje novog artikla implementirati kao dugme na stranici za prikaz svih artikala). Nakon
 dodavanja novog artikla, vratiti prodavca na prikaz svih njegovih artikala.
 
-Akcije
+Akcije -
 Kroz zasebnu aktivnost (dostupnu prodavcima kroz Toolbar meni na glavnom prikazu)
 omogućiti prikaz svih aktuelnih akcija jednog prodavca (aktuelne akcije su one čije vreme
 trajanja nije isteklo u odnosu na trenutni momenat, a prikazuju se i one gde vreme početka
@@ -43,7 +43,7 @@ prodavac biva preusmeren na formu za unos akcije. U okviru forme, pored trajanja
 početnog i krajnjeg datuma), prodavac unosi opis aktivnosti i bira na koje artikle se akcija
 odnosi. Nakon uspešnog dodavanja akcije prodavac se vraća na prikaz svih akcija.
 
-Poručivanje
+Poručivanje -
 Kreirati zasebnu aktivnost u okviru koje kupci imaju mogućnost poručivanja artikala putem
 aplikacije. Naručivanje se odvija kroz nekoliko koraka.
 1. U okviru glavnog prikaza potrebno je odabrati konkretnog prodavca, pri čemu se
@@ -70,7 +70,7 @@ Na osnovu ocene svake porudžbine formira se prosečna ocena svakog prodavca koj
 prikazuje u okviru glavnog prikaza pored podataka svakog od prodavaca, kao i na stranici
 svakog zasebnog prodavca.
 
-Rad sa korisnicima
+Rad sa korisnicima -
 Administratori imaju mogućnost pregleda svih korisnika, kao i blokiranja pojedinačnih korisnika.
 Blokirani korisnici nemaju pristup aplikaciji (onemogućiti njihovu prijavu na sistem). Aktivnosti za
 prikaz svih korisnika administratori pristupaju izborom opcije Korisnici u okviru Toolbara na
